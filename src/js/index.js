@@ -15,7 +15,7 @@ function insertButton() {
 
 	button.addEventListener('click', () => {
 		dices.forEach((dice) => {
-			dice.textContent = `${Math.round(Math.random() * 6)}`;
+			dice.textContent = `${Math.round(Math.random() * 5 + 1)}`;
 		});
 	});
 }
