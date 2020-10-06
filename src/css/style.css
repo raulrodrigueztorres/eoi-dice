@@ -40,9 +40,15 @@ body {
 }
 
 .throwButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin: 2vh;
 	width: 10vh;
 	height: 2vh;
 	cursor: pointer;
+	font-size: 1.3vh;
+	user-select: none;
 	border: 1px solid black;
+	background-color: white;
 }

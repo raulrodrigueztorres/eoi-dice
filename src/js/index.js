@@ -1,6 +1,6 @@
 const container = document.querySelector('.container');
 const dicesContainer = document.createElement('div');
-const button = document.createElement('button');
+const button = document.createElement('div');
 const dices = [];
 
 function insertDicesContainer() {
@@ -24,7 +24,7 @@ function insertDices(numberDices) {
 	for (let i = 0; i < numberDices; ++i) {
 		const dice = document.createElement('div');
 		dices.push(dice);
-		dice.classList.add('dice', `dice-${i}`);
+		dice.classList.add('dice', `dice${i}`);
 		dicesContainer.appendChild(dice);
 	}
 }
