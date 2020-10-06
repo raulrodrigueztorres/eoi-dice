@@ -1,11 +1,11 @@
 {
-	"name": "javascriptday1",
+	"name": "dice",
 	"version": "1.0.0",
-	"description": "JavaScript EOI Day 1",
+	"description": "JavaScript EOI Day 1 - dice",
 	"main": "index.js",
 	"scripts": {
 		"start": "parcel serve src/index.html --port 8000",
-		"build": "parcel build src/index.html --public-url /eoi-vinyl/ -d build",
+		"build": "parcel build src/index.html --public-url /eoi-dice/ -d build",
 		"deploy": "gh-pages -d build",
 		"eslint": "npx eslint src",
 		"eslintFix": "npx eslint src --fix",

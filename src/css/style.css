@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(to left, #fdc830, #f37335);
+}
+
+.dicesContainer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	overflow: scroll;
+	width: 80vh;
+	height: 40vh;
+	background-color: white;
+	border: 2px ridge black;
+}
+
+.dicesContainer::-webkit-scrollbar {
+	display: none;
+}
+
+.dice {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20vh;
+	height: 20vh;
+	border: 1px solid black;
+	border-radius: 25%;
+	font-size: 10vh;
+}
+
+.throwButton {
+	margin: 2vh;
+	width: 10vh;
+	height: 2vh;
+	cursor: pointer;
+	border: 1px solid black;
+}
